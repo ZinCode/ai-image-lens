@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI GEOMETRY LENS</title>
+
+<style>
+#ai-launcher {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #1a73e8 0%, #0d47a1 100%);
+    border-radius: 20px;
+    padding: 40px;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    border: 2px solid rgba(255,255,255,0.2);
+}
+
+#ai-launcher .logo {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+#ai-launcher h2 {
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+#ai-launcher .intro {
+    opacity: 0.9;
+    font-size: 16px;
+    margin: 10px 0 30px;
+}
+
+#ai-launcher .launch-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    background: #ffffff;
+    color: #1a73e8;
+    border: none;
+    padding: 18px 40px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+#ai-launcher .launch-button:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    background: #f8f9fa;
+}
+
+#ai-launcher .launch-button:active {
+    transform: translateY(1px);
+}
+
+#ai-launcher .note {
+    margin-top: 25px;
+    font-size: 13px;
+    background: rgba(255,255,255,0.1);
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+</style>
+</head>
+
+<body>
+
+<div id="ai-launcher">
+    <div class="logo">🔍🤖</div>
+
+    <h2>AI GEOMETRY LENS</h2>
+
+    <p class="intro">
+        Ứng dụng Trí tuệ nhân tạo nhận diện Hình học không gian
+    </p>
+
+    <a
+        class="launch-button"
+        href="https://ZinCode.github.io/ai-image-lens/"
+        target="_blank"
+        rel="noopener noreferrer">
+        <span style="font-size:22px;">📸</span>
+        BẮT ĐẦU NHẬN DIỆN NGAY
+    </a>
+
+    <div class="note">
+        ⚠️ <strong>Lưu ý:</strong>
+        Hệ thống sẽ mở một cửa sổ làm việc riêng biệt để tối ưu hóa
+        hiệu năng của Camera và Model AI.
+        <br>
+        Vui lòng nhấn <b>"Cho phép"</b> khi trình duyệt hỏi quyền
+        truy cập máy ảnh.
+    </div>
+</div>
+
+</body>
+</html>
